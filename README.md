@@ -1,4 +1,4 @@
-# Desafío Clase 10: Motores de plantillas
+# Desafío Clase 12: Webcocket
 #### Curso: Backend Coderhouse
 
 Para incializar y probar los programas de debe ejecutar ```npm install```
@@ -7,13 +7,9 @@ motor de plantillas con el que se desea trabajar.
 
 - El endpoint está en puerto 8080.
 
-## Conclusión
-Habiendo probado los 3 motores de plantillas, me resulto mas agradable el uso de pug por su sintaxis mas clara, simple
-y por que reduce la cantidad de lineas de codigo al no tener que cerrar las etiquetas html. Requiere menos lineas 
-de configuracion que handlebars.
-Por otro lado ejs que tambien es mas simple de configurar que handlebars, no me resulta facil su lectura
-y es bastante engorroso estar tipeando tanto <% %>, ademas tuve que instalar una extension
-para que me resultara mas claro por que un primer momento crei me estaba indicando error al poner las
-<% %> de color rojo y todo el contenido en blanco sin distinción entre comandos y texto.
+##Mejoras:
+- El formulario de carga de productos y el catalogo se encuentra en la ruta raiz "/" utilizando handlebars
+- Se implemento un Centro de Mensajes debajo del catalogo de productos, los mensajes se guardan en un archivo mensajes.txt
+- Se puede ver el historial de mensajes almacenados en el servidor, dentro del Centro de Mensajes
 
 #### Carola Cimini
